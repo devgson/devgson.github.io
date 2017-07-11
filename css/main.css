@@ -719,6 +719,9 @@ a:not([href]):not([tabindex]):hover {
 #Documents{
   background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
 }
+#Documents h5{
+  font-size: 1.25rem;
+}
 .document-boxes {
   text-align: center;
   padding: 15px;
