@@ -1293,6 +1293,29 @@ footer {
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
+.testing{
+    max-width : 480px;
+}
+#popup-box{
+  width: 300px;
+  height: 10%;
+  background-color: #403c3b;
+  background-repeat: no-repeat;
+  background-image: url("medium.png");
+  background-position: left top;
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding-top: 15px; 
+  padding-right: 10px;
+  padding-bottom:  10px;
+  padding-left: 35px;
+  position: fixed;
+  bottom: 20px;
+  text-transform: uppercase;
+  right : -360px;
+}
 @-webkit-keyframes sk-bounce {
   0%,
   100% {

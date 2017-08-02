@@ -1,18 +1,3 @@
-/* 
-   CounterUp
-   ========================================================================== */
-    jQuery(document).ready(function( $ ) {
-      $('.counter').counterUp({
-        time: 500
-      });
-    });
-
-/* 
-   MixitUp
-   ========================================================================== */
-    $(function(){
-      $('#portfolio').mixItUp();
-    });
 
 /* 
    Touch Owl Carousel
@@ -42,21 +27,8 @@
         }
     });
 
-/* 
-   VIDEO POP-UP
-   ========================================================================== */
-    $('.video-popup').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false,
-    });
-
-/* 
-   Back Top Link
-   ========================================================================== */
+/*   Back Top Link 
+========================================================================== */
     var offset = 200;
     var duration = 500;
     $(window).scroll(function() {
@@ -77,16 +49,6 @@
 /* 
    One Page Navigation & wow js
    ========================================================================== */
-  jQuery(function($) {
-      //Initiat WOW JS
-      new WOW().init();
-
-      // one page navigation 
-      $('.main-navigation').onePageNav({
-              currentClass: 'active'
-      });    
-  });
-
   jQuery(document).ready(function() {
      
       $('body').scrollspy({
@@ -104,26 +66,18 @@
 
   });
 
-  /* Nivo Lightbox
-  ========================================================*/
-  jQuery(document).ready(function( $ ) {    
-     $('.lightbox').nivoLightbox({
-      effect: 'fadeScale',
-      keyboardNav: true,
-    });
-
-  });
-
-  /* stellar js
-  ========================================================*/
-  $(function(){
-    $.stellar({
-      horizontalScrolling: false,
-      verticalOffset: 40,
-      responsive: true
-    });
-  });
-
 /* 
-   Page Loader
-   ========================================================================== */
+   Show Medium Blog Section
+========================================================================== */
+  var $window = $(window);
+  var $slideAd = $('#popup-box');
+  var endZone = $('footer').offset().top - $window.height() - 500;
+
+  $window.on('scroll', function() {
+    if ($window.scrollTop() > 2184) {
+      $slideAd.animate({ 'right': '0px' }, 250);
+    } else {
+      $slideAd.stop(true).animate({ 'right': '-360px' }, 150);
+    }
+
+  });
