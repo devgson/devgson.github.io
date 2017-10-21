@@ -882,9 +882,9 @@ a:not([href]):not([tabindex]):hover {
   border-radius: 50%;
 }
 .test img{
-  width: 60%;
+  width: 96%;
   height: 30%;
-  border-radius: 0px;
+  border-radius: 1%;
 
 }
 .testimonial-item .testimonial-text h3 {
