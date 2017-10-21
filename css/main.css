@@ -1296,6 +1296,10 @@ footer {
 .testing{
     max-width : 480px;
 }
+.scotch{
+  width : 8%;
+  height: 7%;
+}
 #popup-box{
   width: 300px;
   height: 10%;
@@ -1312,7 +1316,7 @@ footer {
   padding-bottom:  10px;
   padding-left: 35px;
   position: fixed;
-  bottom: 20px;
+  bottom: 10%;
   text-transform: uppercase;
   right : -360px;
 }
