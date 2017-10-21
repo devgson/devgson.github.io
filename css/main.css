@@ -747,7 +747,7 @@ a:not([href]):not([tabindex]):hover {
 .document-boxes .icon i {
   font-size: 30px;
   line-height: 60px;
-  color: #4676fa;
+  color: #000000;
 }
 .video-promo .video-promo-content {
   color: #fff;
