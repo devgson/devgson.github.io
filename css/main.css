@@ -107,9 +107,6 @@ a:not([href]):not([tabindex]):focus,
 a:not([href]):not([tabindex]):hover {
   color: #4676fa;
 }
-.frontend{
-
-}
 .section {
   padding: 50px 0;
 }
@@ -887,6 +884,22 @@ a:not([href]):not([tabindex]):hover {
   border-radius: 1%;
 
 }
+@media (min-width:1200px) {
+  .test img{
+    width : 60%;
+    height : 30%;
+    border-radius: 1%;
+  }
+}
+
+@media (min-width:600px) {
+  .test img{
+    width : 60%;
+    height : 30%;
+    border-radius: 1%;
+  }
+}
+
 .testimonial-item .testimonial-text h3 {
   font-size: 16px;
   font-weight: 100;
