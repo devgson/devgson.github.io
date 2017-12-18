@@ -874,8 +874,7 @@ a:not([href]):not([tabindex]):hover {
   text-align: center;
 }
 .testimonial-item img {
-  width: 120px;
-  height: 140px;
+  height: 163px;
   border-radius: 50%;
 }
 .test img{
