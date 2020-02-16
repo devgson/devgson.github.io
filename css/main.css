@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: #333;
-  font-size: 14px;
-  font-weight: 300;
+  font-family: 'Corbel', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
   background: #fff;
   overflow-x: hidden;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 26px;
 }
 a:hover,
@@ -23,7 +22,7 @@ a {
   transition: all 0.2s linear;
 }
 .btn {
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px 30px;
   border-radius: 0px;
   font-weight: 400;
@@ -89,11 +88,16 @@ h5 {
   letter-spacing: 1px;
 }
 ul {
-  margin: 0;
-  padding: 0;
+  /*margin: 0;
+  padding: 0;*/
 }
 ul li {
   list-style: none;
+}
+ul li:before {
+  content: '»';
+  margin-left: -20px;
+  margin-right: 10px;
 }
 a:hover,
 a:focus {
@@ -128,8 +132,8 @@ a:not([href]):not([tabindex]):hover {
 }
 .section-header .section-subtitle {
   margin-top: 15px;
-  color: #333;
-  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
   font-weight: 400;
 }
 .section-header .lines {
@@ -343,7 +347,7 @@ a:not([href]):not([tabindex]):hover {
   line-height: 70px;
 }
 #video-area .contents p {
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   font-weight: 400;
   line-height: 30px;
@@ -816,7 +820,7 @@ a:not([href]):not([tabindex]):hover {
 .pricing-table .pricing-details h2 {
   font-size: 22px;
   font-weight: 600;
-  color: #333;
+  color: rgb(0, 0, 0);
   margin-bottom: 10px;
 }
 .pricing-table .pricing-details span {
@@ -875,7 +879,7 @@ a:not([href]):not([tabindex]):hover {
 }
 .testimonial-item img {
   height: 163px;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 .test img{
   width: 96%;
@@ -1007,7 +1011,7 @@ a:not([href]):not([tabindex]):hover {
   margin-bottom: 10px;
 }
 #blog .blog-item-text h3 a {
-  color: #333;
+  color: rgb(0, 0, 0);
 }
 #blog .blog-item-text h3 a:hover {
   color: #4676fa;
@@ -1314,7 +1318,7 @@ footer {
 }
 #popup-box{
   width: 300px;
-  height: 10%;
+  height: 11%;
   background-color: #403c3b;
   background-repeat: no-repeat;
   background-image: url("medium.png");
@@ -1328,7 +1332,7 @@ footer {
   padding-bottom:  10px;
   padding-left: 35px;
   position: fixed;
-  bottom: 10%;
+  bottom: 15%;
   text-transform: uppercase;
   right : -360px;
 }
